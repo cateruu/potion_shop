@@ -15,6 +15,7 @@ namespace Potion {
 	};
 
 	using namespace std::literals;
+	constexpr std::array types{ healing, mana, speed, invisibility };
 	constexpr std::array cost{ 20, 30, 12, 50 };
 	constexpr std::array name{ "healing"sv, "mana"sv, "speed"sv, "invisibility"sv };
 
